@@ -1,0 +1,4 @@
+export(flatTable)
+import(duckdb)
+import(dplyr)
+import(tidyverse)
