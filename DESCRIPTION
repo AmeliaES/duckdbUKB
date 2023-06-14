@@ -1,7 +1,8 @@
-Package: duckdb_UKB
-Title: Query the UK Biobank duckdb database.
+Package: duckdbUKB
+Title: Query the UK Biobank duckdb database
 Version: 0.1.0
-Authors: Amelia Edmondson-Stait
+Author: Amelia Edmondson-Stait
+Maintainer: Amelia Edmondson-Stait <Amelia.edmondson-stait@ed.ac.uk>
 Description: A package for querying the UKB duckdb in R.
 Depends: duckdb, dplyr, tidyverse
 License: MIT

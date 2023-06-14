@@ -1,8 +1,8 @@
-# duckdb_UKB
+# duckdbUKB
 
 ## Description
 
-The duckdb_UKB package is an R package that allows you to query the UK Biobank duckdb database. It provides a convenient way to retrieve and analyze data from the UK Biobank using SQL queries.
+The duckdbUKB package is an R package that allows you to query the UK Biobank duckdb database. It provides a convenient way to retrieve and analyze data from the UK Biobank using SQL queries.
 
 **Currently this package only works on Eddie if you have permission to access the GenScotDepression directory where the UKB SQL database is stored.**
 
@@ -12,13 +12,13 @@ To install the duckdb_UKB package, you can use the `devtools` package to install
 
 ```R
 install.packages("devtools")
-devtools::install_github("AmeliaES/duckdb_UKB")
+devtools::install_github("AmeliaES/duckdbUKB")
 ```
 
 Usage
 To use the duckdb_UKB package, you need to load the package first:
 ```R
-library(duckdb_UKB)
+library(duckdbUKB)
 ```
 
 The main function provided by the package is flatTable(). Here's an example of how to use it:
