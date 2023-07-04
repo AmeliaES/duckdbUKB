@@ -4,6 +4,9 @@
 # Your working directory should be your scratch space.
 # As this was your current directory before launching R.
 # ------------------------------------
+.libPaths( "/home/akwong/R" )
+install.packges("tidyverse", lib = "/home/akwong/R")
+
 # Install and load packages 
 # install.packages("dbplyr")
 # install.packages("duckdb")
