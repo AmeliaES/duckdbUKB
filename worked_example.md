@@ -10,3 +10,9 @@ R
 
 2. Now work through [`worked_example.R`](worked_example.R)
 
+3. Transfer your flat table from your scratch space on Eddie to datastore:
+*Change the path on datastore to your own folder, not mine!*
+```
+qlogin -q staging
+cp /exports/eddie/scratch/$USER/UKB_flat.csv /exports/igmm/datastore/GenScotDepression/users/amelia/
+```

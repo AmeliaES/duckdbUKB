@@ -4,9 +4,6 @@
 # Your working directory should be your scratch space.
 # As this was your current directory before launching R.
 # ------------------------------------
-.libPaths( "/home/akwong/R" )
-install.packges("tidyverse", lib = "/home/akwong/R")
-
 # Install and load packages 
 # install.packages("dbplyr")
 # install.packages("duckdb")
@@ -15,6 +12,15 @@ library(duckdb)
 library(dplyr)
 library(stringr)
 library(tidyverse)
+# ------------------------------------
+# Test you can connect to the database
+  con <- DBI::dbConnect(duckdb::duckdb(),
+    dbdir="/exports/igmm/eddie/GenScotDepression/data/ukb/phenotypes/fields/2022-11-phenotypes-ukb670429-v0.7.1/ukb670429.duckdb",
+    read_only=TRUE)
+
+# If you get an error try logging out of Eddie and relogging in, and connecting to a new node.
+# This is a weird bug I come across stometimes.
+
 # ------------------------------------
 # Read in the field IDs we want
 # (this will be updated to be an object loaded when you load in the package)
@@ -99,4 +105,8 @@ ft_all <- flatTable(UKB_vars, instance = "all")
 
 head(ft_all)
 
+# ------------------------------------
+# Save the table to your scratch space
+
+write.csv(ft_all, "UKB_flat.csv", quote = F, row.names = F)
 
