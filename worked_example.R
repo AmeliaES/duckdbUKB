@@ -79,7 +79,7 @@ flatTable <- function(fieldIDs, instance = 0){
         pull(FieldID) 
       tmp <- paste0("f.", tmp, ".", inst, ".")
       eval(as.symbol(tab)) |>
-        select(c(f.eid, all_of(starts_with(tmp)))) 
+        select(c(f.eid, any_of(starts_with(tmp)))) 
       }) %>% reduce(., full_join, by = "f.eid")
     }) %>% reduce(., full_join, by = "f.eid")
   }
@@ -87,8 +87,13 @@ flatTable <- function(fieldIDs, instance = 0){
 }
 
 # ------------------------------------
-ft <- flatTable(UKB_vars, instance = 0)
-
+# Try with just instance = 0
+ft <- flatTable(UKB_vars)
 head(ft)
+
+# Try all instances
+ft_all <- flatTable(UKB_vars, instance = "all")
+
+head(ft_all)
 
 
