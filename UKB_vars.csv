@@ -1,0 +1,45 @@
+﻿What,Field ID,Where,Extra info
+Sex,31-0.0,Population characteristics,Baseline characteristics
+Year of birth,34-0.0,Population characteristics,Baseline characteristics
+Date of attending assessment centre,53-0.0,Assessment centre,Recruitment
+Date of attending assessment centre,53-1.0,Assessment centre,Recruitment
+Date of attending assessment centre,53-2.0,Assessment centre,Recruitment
+Date of attending assessment centre,53-3.0,Assessment centre,Recruitment
+Age when attended assessment centre,21003-0.0,Assessment centre,Recruitment
+Age when attended assessment centre,21003-1.0,Assessment centre,Recruitment
+Age when attended assessment centre,21003-2.0,Assessment centre,Recruitment
+Age when attended assessment centre,21003-3.0,Assessment centre,Recruitment
+,,,
+Frequency of depressed mood in last 2 weeks,2050-0.0,Assessment centre,Touchscreen
+Frequency of depressed mood in last 2 weeks,2050-1.0,Assessment centre,Touchscreen
+Frequency of depressed mood in last 2 weeks,2050-2.0,Assessment centre,Touchscreen
+Frequency of depressed mood in last 2 weeks,2050-3.0,Assessment centre,Touchscreen
+Frequency of unenthusiasm / disinterest in last 2 weeks,2060-0.0,Assessment centre,Touchscreen
+Frequency of unenthusiasm / disinterest in last 2 weeks,2060-1.0,Assessment centre,Touchscreen
+Frequency of unenthusiasm / disinterest in last 2 weeks,2060-2.0,Assessment centre,Touchscreen
+Frequency of unenthusiasm / disinterest in last 2 weeks,2060-3.0,Assessment centre,Touchscreen
+Frequency of tenseness / restlessness in last 2 weeks,2070-0.0,Assessment centre,Touchscreen
+Frequency of tenseness / restlessness in last 2 weeks,2070-1.0,Assessment centre,Touchscreen
+Frequency of tenseness / restlessness in last 2 weeks,2070-2.0,Assessment centre,Touchscreen
+Frequency of tenseness / restlessness in last 2 weeks,2070-3.0,Assessment centre,Touchscreen
+Frequency of tiredness / lethargy in last 2 weeks,2080-0.0,Assessment centre,Touchscreen
+Frequency of tiredness / lethargy in last 2 weeks,2080-1.0,Assessment centre,Touchscreen
+Frequency of tiredness / lethargy in last 2 weeks,2080-2.0,Assessment centre,Touchscreen
+Frequency of tiredness / lethargy in last 2 weeks,2080-3.0,Assessment centre,Touchscreen
+,,,
+Date of completing mental health questionnaire,20400-0.0,Online follow up,Mental health
+Recent feelings of depression,20510-0.0,Online follow up,Mental health
+Recent lack of interest or pleasure in doing things,20514-0.0,Online follow up,Mental health
+Recent restlessness,20516-0.0,Online follow up,Mental health
+Recent feelings of tiredness or low energy,20519-0.0,Online follow up,Mental health
+,,,
+When pain questionnaire completed,120128-0.0,Online follow up,Experience of pain
+"Feeling down, depressed, or hopeless over the last two weeks",120105-0.0,Online follow up,Experience of pain
+Little interest or pleasure in doing things over the last two weeks,120104-0.0,Online follow up,Experience of pain
+Feeling tired or having little energy over the last two weeks,120107-0.0,Online follow up,Experience of pain
+,,,
+New vars to come at some point soon but not here yet,,,
+"Feeling down, depressed or hopeless over the last 2 weeks",28738,,
+,,,
+,,,
+,,,
