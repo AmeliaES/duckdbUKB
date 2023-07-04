@@ -5,8 +5,9 @@
 # As this was your current directory before launching R.
 # ------------------------------------
 # Install and load packages 
+# install.packages("remotes")
 # install.packages("dbplyr")
-# install.packages("duckdb")
+# remotes::install_version('duckdb', '0.7.1-1')
 
 library(duckdb)
 library(dplyr)
@@ -18,8 +19,8 @@ library(tidyverse)
     dbdir="/exports/igmm/eddie/GenScotDepression/data/ukb/phenotypes/fields/2022-11-phenotypes-ukb670429-v0.7.1/ukb670429.duckdb",
     read_only=TRUE)
 
-# If you get an error try logging out of Eddie and relogging in, and connecting to a new node.
-# This is a weird bug I come across stometimes.
+# If you get an error try logging out of your node on Eddie and reloading R then checking your version of duckdb R package.
+# The package version you want is 0.7.1.1
 
 # ------------------------------------
 # Read in the field IDs we want (below are some fieldIDs for variables that Alex wanted and is provided as an example. You could also make a variable with the field IDs that you are interested in.)
